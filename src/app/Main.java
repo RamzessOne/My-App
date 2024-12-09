@@ -2,12 +2,15 @@ package app;
 
 public class Main {
 
-    public static String shop;
+    public static String app;
+    public static String customers;
 
     public static void main(String[] args) {
 
-        shop = "This is shop-online app";
-        System.out.println(shop + " ");
+        app = "This is shop-online app";
+        customers = "Shop-online for customers";
+        System.out.println(app + " ");
+        System.out.println(customers + " ");
     }
 }
 
